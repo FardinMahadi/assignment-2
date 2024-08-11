@@ -33,5 +33,6 @@
   .hero .hero-box {
     width: 90%;
     flex-direction: column;
+    margin-top: 4rem;
   }
 }

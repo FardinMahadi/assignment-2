@@ -113,7 +113,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
 }
 
 .hero .hero-box .text {
@@ -134,12 +133,20 @@ body {
 }
 
 /* image section */
+.hero .hero-box .img {
+  margin: -4rem 0;
+}
+
 .hero .hero-box .img .side-box {
   border-radius: 0.8rem;
   backdrop-filter: blur(1.2rem);
   padding: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
+}
+
+.hero .hero-box .img img {
+  height: 30rem;
 }
 
 .hero .hero-box .img .side-box-top {
