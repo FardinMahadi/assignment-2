@@ -236,13 +236,14 @@ body {
 .change-habit .main-box .skills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .change-habit .main-box .skills .cards img {
   border-radius: 50%;
   border: 0.3rem solid rgba(255, 255, 255, 0.1);
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .change-habit .main-box .skills .cards h3 {
@@ -252,11 +253,13 @@ body {
 
 .change-habit .main-box .skills .cards p {
   font-size: 0.8rem;
+  width: 100%;
 }
 
 /* run an extra mile */
 .run {
   display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }

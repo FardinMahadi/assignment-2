@@ -84,4 +84,22 @@
   .hero .hero-box .img .side-box p {
     font-size: 0.5rem;
   }
+
+  /*  your habit */
+  .change-habit .main-box {
+    margin: 0 2rem;
+  }
+
+  .change-habit .main-box .skills {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
+
+  .change-habit .main-box .skills .cards {
+    max-width: 20rem;
+  }
+
+  .change-habit .main-box .skills .cards img {
+    width: 60%;
+  }
 }

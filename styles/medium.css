@@ -35,4 +35,22 @@
     flex-direction: column;
     margin-top: 4rem;
   }
+
+  /*  your habit */
+  .change-habit .main-box {
+    margin: 0 2rem;
+  }
+
+  .change-habit .main-box .skills {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+
+  .change-habit .main-box .skills .cards {
+    max-width: 15rem;
+  }
+
+  .change-habit .main-box .skills .cards img {
+    width: 60%;
+  }
 }
