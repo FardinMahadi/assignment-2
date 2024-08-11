@@ -203,7 +203,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 6rem;
+  margin: 6rem 0;
 }
 
 .change-habit .main-box {
@@ -217,6 +217,7 @@ body {
 
 .change-habit .main-box .head {
   max-width: 40rem;
+  margin-bottom: 2rem;
 }
 
 .change-habit .main-box .head h1,
@@ -230,4 +231,64 @@ body {
 
 .change-habit .main-box .head p {
   font-size: 0.8rem;
+}
+
+.change-habit .main-box .skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.change-habit .main-box .skills .cards img {
+  border-radius: 50%;
+  border: 0.3rem solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+}
+
+.change-habit .main-box .skills .cards h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.change-habit .main-box .skills .cards p {
+  font-size: 0.8rem;
+}
+
+/* run an extra mile */
+.run {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.run .run-extra {
+  background: var(--hero-bg);
+  padding: 3rem 0;
+  max-width: 992px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.run .run-extra .text,
+.run .run-extra .img {
+  margin: 0 3rem;
+  max-width: 30rem;
+}
+
+.run .run-extra .img {
+  background: url("../images/run.jpg");
+  height: 20rem;
+  width: 20rem;
+}
+
+.run .run-extra .text h1 {
+  font-size: 3rem;
+}
+
+.run .run-extra .text p {
+  font-size: 0.8rem;
+  margin: 1rem 0;
 }
