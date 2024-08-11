@@ -63,13 +63,14 @@
   }
 
   .hero .hero-box .img .side-box-top {
-    width: 8rem;
+    width: 5rem;
     top: 12rem;
+    left: 10rem;
   }
 
   .hero .hero-box .img .side-box-bottom {
     top: -10rem;
-    left: -3rem;
+    left: 0;
     width: 8rem;
   }
 
