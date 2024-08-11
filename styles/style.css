@@ -2,12 +2,17 @@
 /* inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* miama */
+@import url("https://fonts.cdnfonts.com/css/miama");
+
 /* root properties */
 :root {
   --primary-bg: rgb(34, 34, 34);
   --primary-color: rgb(230, 83, 60);
+  --secondary-color: rgba(255, 255, 255, 0.5);
 }
 
+/* universal styles */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +22,14 @@
 body {
   background: var(--primary-bg);
   color: white;
+}
+
+/* shared styles */
+.miama-font {
+  font-family: miama;
+  font-size: 9rem;
+  line-height: 1rem;
+  font-weight: 400;
 }
 
 /* hero section */
@@ -69,4 +82,29 @@ body {
 
 .hero nav ul .btn {
   background: var(--primary-color);
+}
+
+/* hero box */
+.hero .hero-box {
+  max-width: 992px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-box .text {
+  max-width: 35rem;
+}
+
+.hero .hero-box .text h1 {
+  font-size: 4.5rem;
+}
+
+.hero .hero-box .text h1,
+.hero .hero-box .text p {
+  margin-bottom: 2rem;
+}
+
+.hero .hero-box .text p {
+  color: var(--secondary-color);
 }
