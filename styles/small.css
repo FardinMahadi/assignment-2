@@ -102,4 +102,26 @@
   .change-habit .main-box .skills .cards img {
     width: 60%;
   }
+
+  /* run an extra mile */
+  .run .run-extra {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    gap: 2rem;
+
+    padding: 3rem 0 1rem 0;
+  }
+
+  .run .run-extra .text,
+  .run .run-extra .img {
+    margin: 0 3rem;
+  }
+
+  .run .run-extra .img {
+    height: auto;
+
+    width: 90%;
+  }
 }
