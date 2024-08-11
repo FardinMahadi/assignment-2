@@ -53,4 +53,28 @@
   .change-habit .main-box .skills .cards img {
     width: 60%;
   }
+
+  /* run an extra mile */
+  .run .run-extra {
+    max-width: 90%;
+    gap: 2rem;
+  }
+
+  .run .run-extra .text,
+  .run .run-extra .img {
+    margin: 0;
+  }
+
+  .run .run-extra .text {
+    margin-left: 3rem;
+  }
+
+  .run .run-extra .img {
+    margin-right: 3rem;
+  }
+
+  .run .run-extra .img {
+    height: 10rem;
+    width: 10rem;
+  }
 }

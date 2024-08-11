@@ -259,7 +259,6 @@ body {
 /* run an extra mile */
 .run {
   display: flex;
-  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -282,9 +281,9 @@ body {
 }
 
 .run .run-extra .img {
-  background: url("../images/run.jpg");
   height: 20rem;
   width: 20rem;
+  border-radius: 1rem;
 }
 
 .run .run-extra .text h1 {
