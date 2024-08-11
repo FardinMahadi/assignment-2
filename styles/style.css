@@ -1,10 +1,20 @@
+/* font families */
+/* inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* root properties */
+:root {
+  --primary-bg: rgb(34, 34, 34);
+  --primary-color: rgb(230, 83, 60);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: rgb(34, 34, 34);
+  background: var(--primary-bg);
   color: white;
 }
 
@@ -16,4 +26,41 @@ body {
     rgba(119, 119, 119, 0) 100%
   );
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* nav bar */
+.hero nav {
+  margin: 2rem 0;
+  max-width: 992px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+}
+
+.hero nav img {
+  display: none;
+}
+
+.hero nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+.hero nav .logo {
+  font-family: Inter;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
 }
