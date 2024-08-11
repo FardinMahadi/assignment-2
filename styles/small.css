@@ -1,5 +1,18 @@
 /* small device */
 @media (max-width: 575px) {
+  /* shared styles */
+  .miama-font {
+    font-size: 6rem;
+  }
+
+  .primary-btn {
+    padding: 1rem 1.5rem;
+  }
+
+  .secondary-btn {
+    padding: 1rem 1.5rem;
+  }
+
   /* hero section */
   /* nav bar */
   .hero nav {
@@ -13,5 +26,62 @@
 
   .hero nav ul {
     display: none;
+  }
+
+  /* hero box */
+  /* hero box */
+  .hero .hero-box {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .hero .hero-box .text h1 {
+    font-size: 3rem;
+  }
+
+  .hero .hero-box .text p {
+    font-size: 0.8rem;
+  }
+
+  .hero .hero-box .text .btn-box {
+    display: flex;
+  }
+
+  /* image section */
+  .hero .hero-box .img img {
+    height: 30rem;
+  }
+  .hero .hero-box .img .side-box {
+    border-radius: 0.5rem;
+    backdrop-filter: blur(1rem);
+  }
+
+  .hero .hero-box .img .side-box-top {
+    width: 8rem;
+    top: 12rem;
+  }
+
+  .hero .hero-box .img .side-box-bottom {
+    top: -10rem;
+    left: -3rem;
+    width: 8rem;
+  }
+
+  .hero .hero-box .img .side-box .circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .hero-box .img .side-box h1 {
+    font-size: 1rem;
+  }
+
+  .hero .hero-box .img .side-box p {
+    font-size: 0.8rem;
   }
 }

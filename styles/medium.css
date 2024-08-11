@@ -28,4 +28,10 @@
   .hero nav ul .btn {
     background: var(--primary-color);
   }
+
+  /* hero box */
+  .hero .hero-box {
+    width: 90%;
+    flex-direction: column;
+  }
 }
