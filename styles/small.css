@@ -121,7 +121,7 @@
 
   .run .run-extra .img {
     height: auto;
-
     width: 90%;
+    object-fit: cover;
   }
 }

@@ -284,6 +284,8 @@ body {
   height: 20rem;
   width: 20rem;
   border-radius: 1rem;
+  object-fit: none;
+  object-position: 65% 30%;
 }
 
 .run .run-extra .text h1 {

@@ -71,10 +71,11 @@
 
   .run .run-extra .img {
     margin-right: 3rem;
+    object-fit: cover;
   }
 
   .run .run-extra .img {
-    height: 10rem;
+    height: 15rem;
     width: 10rem;
   }
 }
