@@ -195,3 +195,39 @@ body {
   margin: 0;
   color: var(--secondary-color);
 }
+
+/*  your habit */
+.change-habit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.change-habit .main-box {
+  max-width: 992px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.change-habit .main-box .head {
+  max-width: 40rem;
+}
+
+.change-habit .main-box .head h1,
+.change-habit .main-box .head p {
+  margin: 1rem 0;
+}
+
+.change-habit .main-box .head h1 {
+  font-size: 3rem;
+}
+
+.change-habit .main-box .head p {
+  font-size: 0.8rem;
+}
