@@ -106,8 +106,17 @@
   }
 
   /* cards */
-
   .team .main-box .cards .card .text {
     top: 10rem;
+  }
+
+  /* footer */
+  footer .main-box {
+    max-width: 992px;
+    padding: 4rem 0 0 2rem;
+  }
+
+  footer .main-box .data {
+    flex-direction: column;
   }
 }
