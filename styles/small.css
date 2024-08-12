@@ -148,4 +148,21 @@
     flex-direction: column;
     padding: 3rem 1rem;
   }
+
+  /* meet our team */
+  .team .main-box .title-text {
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .team .main-box .title-text .title {
+    font-size: 2rem;
+  }
+
+  /* cards */
+  .team .main-box .cards {
+    width: auto;
+    margin: 0 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

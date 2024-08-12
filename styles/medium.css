@@ -92,4 +92,22 @@
     flex-direction: column;
     padding: 3rem 1rem;
   }
+
+  /* meet our team */
+  .team {
+    width: 100%;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .team .main-box {
+    width: 90%;
+  }
+
+  /* cards */
+
+  .team .main-box .cards .card .text {
+    top: 10rem;
+  }
 }

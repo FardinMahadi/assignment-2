@@ -303,12 +303,12 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 5rem 0;
+  margin: 10rem 0 5rem 0;
 }
 
 .bmi .title-text {
   max-width: 60%;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .bmi .title-text .title {
@@ -390,4 +390,60 @@ td {
 .bmi .main-box .padding-box .right-box .primary-btn {
   margin-top: 2rem;
   font-size: 1rem;
+}
+
+/* meet our team */
+.team {
+  width: 100%;
+  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.team .main-box {
+  max-width: 992px;
+  width: 100%;
+}
+
+.team .main-box .title-text {
+  text-align: center;
+  padding: 0 8rem;
+}
+
+.team .main-box .title-text .title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.team .main-box .title-text .about {
+  font-size: 0.8rem;
+  margin-bottom: 4rem;
+}
+
+/* cards */
+.team .main-box .cards {
+  width: 100%;
+  border-radius: 1rem;
+  background: var(--hero-bg);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.team .main-box .cards .card {
+  position: relative;
+}
+
+.team .main-box .cards .card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.team .main-box .cards .card .text {
+  position: absolute;
+  margin-left: 1rem;
+  top: 17rem;
 }
