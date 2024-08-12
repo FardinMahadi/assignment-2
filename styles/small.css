@@ -103,6 +103,15 @@
     width: 60%;
   }
 
+  /* unique section */
+  .unique .main-box {
+    margin: 0 2rem;
+  }
+
+  .unique .main-box .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   /* run an extra mile */
   .run .run-extra {
     flex-direction: column;

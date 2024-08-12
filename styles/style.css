@@ -257,6 +257,55 @@ body {
   width: 100%;
 }
 
+/* unique section */
+.unique {
+  background: var(--hero-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.unique .main-box {
+  max-width: 992px;
+  padding: 5rem 0;
+}
+
+.unique .main-box .title-text p {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.unique .main-box .title-text .title {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.unique .main-box .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 5rem 0;
+}
+
+.unique .main-box .cards .card .logo {
+  height: 5rem;
+}
+
+.unique .main-box .cards .card .title {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.unique .main-box .cards .card .about {
+  font-size: 0.8rem;
+}
+
 /* run an extra mile */
 .run {
   display: flex;

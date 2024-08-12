@@ -54,6 +54,15 @@
     width: 60%;
   }
 
+  /* unique section */
+  .unique .main-box {
+    margin: 0 2rem;
+  }
+
+  .unique .main-box .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   /* run an extra mile */
   .run .run-extra {
     max-width: 90%;
