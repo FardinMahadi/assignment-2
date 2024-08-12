@@ -128,4 +128,24 @@
   .run .run-extra .text .title {
     font-size: 2rem;
   }
+
+  /* bmi section */
+  .bmi {
+    display: inline-block;
+    margin: 5rem 0;
+  }
+  .bmi .title-text {
+    min-width: 20rem;
+    margin-left: 2rem;
+  }
+
+  .bmi .title-text .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .bmi .main-box .padding-box {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
 }

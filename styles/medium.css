@@ -78,4 +78,18 @@
     height: 15rem;
     width: 10rem;
   }
+
+  /* bmi section */
+  .bmi {
+    display: inline-block;
+    margin: 5rem 0;
+  }
+  .bmi .title-text {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .bmi .main-box .padding-box {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
 }

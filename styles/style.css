@@ -296,3 +296,98 @@ body {
   font-size: 0.8rem;
   margin: 1rem 0;
 }
+
+/* bmi section */
+.bmi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 5rem 0;
+}
+
+.bmi .title-text {
+  max-width: 60%;
+  margin-bottom: 5rem;
+}
+
+.bmi .title-text .title {
+  font-size: 3rem;
+}
+
+.bmi .title-text .about {
+  font-size: 0.8rem;
+}
+
+/* bmi main box */
+.bmi .main-box {
+  background: var(--hero-bg);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bmi .main-box .padding-box {
+  max-width: 992px;
+  padding: 4rem 0;
+  width: 100%;
+  display: flex;
+  gap: 5rem;
+}
+
+.bmi .main-box .padding-box .left-box .title {
+  min-width: 20rem;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+th {
+  font-size: 1rem;
+}
+
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.bmi .main-box .padding-box .right-box .title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bmi .main-box .padding-box .right-box .about {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.bmi .main-box .padding-box .right-box .input-section .flex input,
+.bmi .main-box .padding-box .right-box .input-section select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 0.8rem 2rem 0.8rem 1rem;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+
+.bmi .main-box .padding-box .right-box .input-section .flex,
+.bmi .main-box .padding-box .right-box .input-section select {
+  display: flex;
+  max-width: 50rem;
+}
+
+.bmi .main-box .padding-box .right-box .primary-btn {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
