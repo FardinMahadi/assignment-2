@@ -124,4 +124,8 @@
     width: 90%;
     object-fit: cover;
   }
+
+  .run .run-extra .text .title {
+    font-size: 2rem;
+  }
 }
